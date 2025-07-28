@@ -91,6 +91,12 @@ export default function Home() {
                 <Covers />
                 <ClippedDiv />
             </div>
+            <div>
+                <h3 className="pl-40 text-[3rem]">
+                    Experience
+                </h3>
+                
+            </div>
         </main>
     );
 }

@@ -41,7 +41,7 @@ function ClippedDiv() {
                     animate={{ opacity: 1, x: 60 }}
                     transition={{ duration: 0.5 }}
                 >
-                    <Image fill src="/cover.png" alt="" />
+                    <Image loading="lazy" fill src="/cover.png" alt="" />
                 </motion.div>
             </motion.div>
         </section>

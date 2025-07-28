@@ -20,37 +20,38 @@ function Navbar() {
                     scrollYValue > 0
                         ? "10px 200px 10px 40px"
                         : "40px 40px 40px 40px",
+                
             }}
             transition={{ duration: 1 }}
         >
             <ul className="flex gap-4 text-2xl">
                 <li>
-                    <button className="cursor-pointer hover:text-[#940000] transition-all duration-150 active:text-[#ff0000]">
+                    <button className={`cursor-pointer ${scrollYValue <= 0 ? "hover:text-[#940000]": "hover:text-black"} transition-all duration-150 active:text-[#ff0000]`}>
                         Contact me
                     </button>
                 </li>
                 <li>
-                    <button className="cursor-pointer hover:text-[#940000] transition-all duration-150 active:text-[#ff0000]">
+                    <button className={`cursor-pointer ${scrollYValue <= 0 ? "hover:text-[#940000]": "hover:text-black"} transition-all duration-150 active:text-[#ff0000]`}>
                         Experience
                     </button>
                 </li>
                 <li>
-                    <button className="cursor-pointer hover:text-[#940000] transition-all duration-150 active:text-[#ff0000]">
+                    <button className={`cursor-pointer ${scrollYValue <= 0 ? "hover:text-[#940000]": "hover:text-black"} transition-all duration-150 active:text-[#ff0000]`}>
                         Education
                     </button>
                 </li>
                 <li>
-                    <button className="cursor-pointer hover:text-[#940000] transition-all duration-150 active:text-[#ff0000]">
+                    <button className={`cursor-pointer ${scrollYValue <= 0 ? "hover:text-[#940000]": "hover:text-black"} transition-all duration-150 active:text-[#ff0000]`}>
                         Tools
                     </button>
                 </li>
                 <li>
-                    <button className="cursor-pointer hover:text-[#940000] transition-all duration-150 active:text-[#ff0000]">
+                    <button className={`cursor-pointer ${scrollYValue <= 0 ? "hover:text-[#940000]": "hover:text-black"} transition-all duration-150 active:text-[#ff0000]`}>
                         Projects
                     </button>
                 </li>
                 <li>
-                    <button className="cursor-pointer hover:text-[#940000] transition-all duration-150 active:text-[#ff0000]">
+                    <button className={`cursor-pointer ${scrollYValue <= 0 ? "hover:text-[#940000]": "hover:text-black"} transition-all duration-150 active:text-[#ff0000]`}>
                         About me
                     </button>
                 </li>
