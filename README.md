@@ -7,6 +7,7 @@ I am currently building this portfolio to showcase my skills in:
 
 ### 🛠 Tech Stack
 
+<p>
 <!-- Lenguajes -->
 <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white"/>
 <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"/>
@@ -30,6 +31,7 @@ I am currently building this portfolio to showcase my skills in:
 <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"/>
 <img src="https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white"/>
 <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white"/>
+</p>
 
 ---
 
